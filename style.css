@@ -1,0 +1,146 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    /* background-color:#c8d6e5; */
+    background-color:#95afc0;
+}
+
+.toolbox-cont{
+    height: 5rem;
+    background-color:#535c68;
+    display: flex;
+    align-items: center;
+}
+.toolbox-cont>* {
+    margin-left: 4rem;
+    border-radius:4px;
+}
+.toolbox-priority-cont{
+    height: 3.5rem;
+    width: 16rem;
+    background-color: #dff9fb;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.action-btn-cont{
+    height: 3rem;
+    width: 8rem;
+    background-color:#dff9fb;
+    display: flex;
+    align-items: center;
+}
+.add-btn{
+    width:50%;
+}
+.remove-btn{
+    width: 50%;
+}
+.add-btn:hover{
+    transform: scale(1.5);  
+}
+.remove-btn:hover{
+    transform: scale(1.5);
+}
+
+.action-btn-cont>*{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color:#3c40c6
+}
+.color{
+    height: 1.5rem;
+    width:  2.5rem;
+    border-radius: 4px;
+}
+.lightpink{
+    background-color: #ea8685;
+}
+.lightgreen{
+    background-color: #0be881;
+}
+.lightblue{
+    background-color: #0fbcf9;
+}
+.black{
+    background-color: #1e272e;
+}
+
+.modal-cont{
+    width: 45vw;
+    height: 50vh;
+    background-color:#adcde6;
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 45vw)/2);
+    display:flex;
+    display: none;
+
+
+}
+
+
+.textarea-cont{
+    width: 75%;
+    height:100%;
+    border: none;
+    outline: none;
+     background-color: #ffffff;   
+    /* background-color: #dff9fb ; */
+    resize:none;
+    padding:2rem;
+    font-size: 1.5rem;
+}
+
+.priority-colors-cont{
+    width:25%;
+    height:100%;
+    background: #2f3542;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.priority-color{
+    height: 3.5rem;
+    width: 50%;
+    /* background-color: #535c68; */
+    border-radius:4px;
+}
+
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.ticket-cont{
+    height: 12rem;
+    width: 16rem;
+    background-color:#c7ecee;
+}
+
+.task-color{
+    height: 1rem;
+    /* background-color: #ea8685; */
+}
+.task-id{
+    height: 2rem;
+    padding: 0.5rem;
+}
+.task-area{
+    height: calc(100% - 2rem - 1rem);
+    /* background-color: #3c40c6; */
+    padding: 0.5rem;
+}
+
